@@ -24,7 +24,7 @@ To better support the research in collaborative search, we propose **CoSearchAge
 ## Case Study
 CoSearchAgent not only accurately rewrites the user query for search but also offers a detailed and precise answer, supported by citation markers. Moreover, displaying content relevant to the query in the search results makes it more convenient for users to assess whether to navigate to the corresponding search page for detailed reading, thereby improving search efficiency.
 
-![sda](image/case2.png)
+![sda](image/case.png)
 
 ## Authors
 - Peiyuan Gong
