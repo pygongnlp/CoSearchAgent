@@ -4,12 +4,11 @@ import re
 from rouge import Rouge
 
 # API keys
-SERPAPI_KEY = "f8f90686f6e5e62111b1beb91ea45586ae0fff55ea9a1076f5ee5111edbb2162"
-OPENAI_KEY = "sk-rhaQindC3DHqfAru86Eb61A7B44f465dA97d13D794465248"
-OPENAI_URL = "https://oneapi.xty.app/v1"
+SERPAPI_KEY = "serpapi_key"
+OPENAI_KEY = "openai_key"
 
 # Database password
-SQL_PASSWORD = "1675081855"
+SQL_PASSWORD = "password"
 
 
 def get_table_info(table_name):

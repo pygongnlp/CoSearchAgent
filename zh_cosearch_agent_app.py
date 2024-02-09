@@ -18,19 +18,18 @@ from utils import (
     update_rag_answer,
     SERPAPI_KEY,
     OPENAI_KEY,
-    OPENAI_URL,
     SQL_PASSWORD,
 )
 
 # Slack API tokens
-SLACK_BOT_TOKEN = "xoxb-6252739258084-6577075049461-R0rUvkHcuwBa41DmXaL70rsq"
-SLACK_APP_TOKEN = "xapp-1-A06HEK2M3FB-6602777795296-b3facac38ee032a9faaa0d3f17e8a0d90eca94945d6a9a1bd31e417f36d22069"
-BOT_ID = "U06GZ271FDK"
+SLACK_BOT_TOKEN = "bot_token"
+SLACK_APP_TOKEN = "app_token"
+BOT_ID = "bot_id"
 
 app = App(token=SLACK_BOT_TOKEN)
 
 search_engine = SearchEngine(api_key=SERPAPI_KEY)
-agent = CoSearchAgent(search_engine=search_engine, api_key=OPENAI_KEY, url=OPENAI_URL)
+agent = CoSearchAgent(search_engine=search_engine, api_key=OPENAI_KEY)
 
 memory = Memory(sql_password=SQL_PASSWORD)
 search_memory = SearchMemory(sql_password=SQL_PASSWORD)
@@ -38,7 +37,7 @@ click_memory = ClickMemory(sql_password=SQL_PASSWORD)
 
 channel_id2names = get_channel_info(table_name="channel_info")
 user_id2names = get_user_info(table_name="user_info")
-user_id2names["U06GZ271FDK"] = "CoSearchAgent"
+user_id2names["bot_id"] = "CoSearchAgent"
 
 
 @app.action("click")

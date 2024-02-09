@@ -14,10 +14,9 @@ text_extractor.ignore_emphasis = True
 
 
 class CoSearchAgent:
-    def __init__(self, search_engine, api_key, url, model_name="gpt-3.5-turbo-1106",
+    def __init__(self, search_engine, api_key, model_name="gpt-3.5-turbo-1106",
                  prompt_dir="prompts/en_complete_agent", temperature=0, n=1):
         self.api_key = api_key
-        self.url = url
         self.initialize_openai()
 
         self.model_name = model_name
@@ -30,7 +29,6 @@ class CoSearchAgent:
 
     def initialize_openai(self):
         openai.api_key = self.api_key
-        openai.api_base = self.url
 
     @backoff.on_exception(backoff.expo, openai.error.RateLimitError)
     def generate_openai_response(self, prompt):
