@@ -5,6 +5,11 @@ To better support the research in collaborative search, we propose **CoSearchAge
 
 ![sda](image/cosearchagent.png)
 
+## Demo Video
+<video width="610" height="400" controls>
+  <source src="./demo.mp4" type="video/mp4">
+</video>
+
 ## How to deploy
 1. Register a Slack account, log in, and create a Workspace.
 2. Link MySQL, create two tables respectively used to store user information and channel information.
@@ -18,7 +23,7 @@ To better support the research in collaborative search, we propose **CoSearchAge
    ```
 9. Introduce CoSearchAgent into the created channel and use @CoSearchAgent to initiate queries with starting tokens.
    
-## Demonstration
+## Case Study
 CoSearchAgent not only accurately rewrites the user query for search but also offers a detailed and precise answer, supported by citation markers. Moreover, displaying content relevant to the query in the search results makes it more convenient for users to assess whether to navigate to the corresponding search page for detailed reading, thereby improving search efficiency.
 
 ![sda](image/case2.png)
