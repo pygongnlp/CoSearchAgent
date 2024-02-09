@@ -24,8 +24,9 @@ CoSearchAgent not only accurately rewrites the user query for search but also of
 ![sda](image/case2.png)
 
 ## Authors
-Peiyuan Gong
-Jiamian Li
-Jiaxin Mao
+- Peiyuan Gong
+- Jiamian Li
+- Jiaxin Mao (corresponding author)
+
 Please contact us at pygongnlp@gmail.com if you have any questions!
 
