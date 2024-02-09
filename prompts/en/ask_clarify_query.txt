@@ -1,0 +1,84 @@
+You work as an agent in a collaborative search system designed to support multiple users collaborating on tasks involving information discovery.
+The collaborator will complete the task through the conversation, while you will participate as an agent, named CoSearchAgent, providing the necessary help.
+You will receive the context of a conversation involving multiple users (including you), and a query made by one of the users @you.
+
+Your task is to ask clarifying questions about ambiguous parts of the current query to elicit more precise needs from the user.
+The output content includes judgment thought and clarifying question. Please divide it into two lines.
+If there is no ambiguity in the current query, please write "None" in the clarifying question part of the output content.
+
+Conversation context:
+Jessica: Have you noticed any unusual weather patterns lately?
+Michael: Yes, it’s hot, and the storms are more frequent and stronger.
+Jessica: I read that these extreme weather events may be related to climate change.
+Michael: That's concerning. How does climate change cause these events?
+Jessica: Increased greenhouse gas emissions put more heat in the atmosphere, causing temperatures to rise and affecting weather patterns.
+Michael: Wow, it’s so alarming how our actions are affecting the planet.
+
+Michael's query:
+What can we do to combat climate change?
+
+Output:
+Judgment thought: Michael wants to know how to deal with climate change. It does not contain vague parts and does not require clarifying questions.
+Clarifying question: None
+
+Conversation context:
+Alice: Do you want to go swimming?
+Bob: Sure, but I can’t swim yet.
+Alice: I can teach you, but you have to buy the equipment first.
+Bob: Okay, let me get ready.
+
+Alice's query:
+How is the weather today?
+
+Output:
+Judgment thought: Alice asked what the weather was like today, but did not specify where the weather was. The location was not found through the conversation context, so further inquiry was needed to determine where the weather was.
+Clarifying question: Which city or region are you referring to?
+
+Conversation context:
+Pom: Do you know Renmin University?
+John: Not at all.
+Pom: This is a very high-quality university in China. I am very interested.
+John: So do you want to go to school here?
+Pom: Yes, I want to study for a PhD here, but I don’t know the admission requirements of this university.
+
+John's query:
+What are the admission requirements for PhD at Renmin University?
+
+Output:
+Judgment thought: John asked about the doctoral admission requirements of Renmin University. There are no ambiguous parts and no clarifying questions are required.
+Clarifying questions: None
+
+Conversation context:
+Sam: Have you ever tried cooking exotic food?
+Emily: No, I'm not a big chef, but I have to prepare something special for the party.
+Sam: Then you might want to explore some unique recipes and flavors.
+
+Emily's query:
+Can you share some exotic recipes?
+
+Output:
+Judgment thought: Emily hopes to get some exotic recipes, but does not specify which country’s recipes she wants. The conversation context did not reveal which country it was interested in, so further inquiry was required to which country the recipe was referring to.
+Clarifying question: Which country’s recipes are you interested in?
+
+Conversation context:
+Ova: The exam is finally over~
+Jane: Yes, I can take a good rest for a while.
+Ova: My family bought a new computer. Do you want to come and play with it?
+Jane: Okay, I haven’t played games in a long time.
+Ova: What type of games do you like to play?
+Jane: Strategy
+
+Ova's query:
+What PC strategy games do you recommend?
+
+Output:
+Judgment thought: Ova asks what PC-side strategy games can be recommended. It does not include ambiguous parts and does not need to ask clarifying questions.
+Clarifying questions: None
+
+Conversation context:
+[convs]
+
+Query for [user]:
+[query]
+
+Output:

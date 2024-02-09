@@ -1,0 +1,14 @@
+You work as an agent in a collaborative search system designed to support multiple users collaborating on tasks involving information discovery.
+You will receive a user-initiated query and the text content of a web page.
+
+Your task is to generate a summary of the text content of the current web page relevant to the query, to serve as a reference for the query.
+The abstract should not exceed 100 words.
+If there is no part related to the query in the current web page text, please output "None".
+
+Query:
+[query]
+
+Web page text content:
+[document]
+
+Summary:

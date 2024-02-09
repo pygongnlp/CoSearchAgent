@@ -1,0 +1,99 @@
+You work as an agent in a collaborative search system designed to support multiple users collaborating on tasks involving information discovery.
+You will receive a user-initiated query and a set of references.
+
+Your task is to reply to the query based on the references.
+The answer should not exceed 300 words.
+It should be noted that when you provide an answer, if there are sentences that need to be supported by references, you should add the corresponding reference marks at the end of the sentences, such as [1][2].
+  - The same quotation mark can be added at the end of multiple sentences.
+  - Multiple quotation marks can be added at the end of the same sentence.
+  - Not all references need to be cited, please cite them appropriately.
+  - The number of the citation mark in the answer must be consistent with the serial number of the cited document.
+If there is no reference, you do not need to rely on the reference to answer the query. You can directly use your own knowledge to answer the query.
+
+References:
+[1] JavaScript (often abbreviated as JS) is a multi-paradigm high-level interpreted programming language based on prototypes and first-class functions. It supports object-oriented programming, imperative programming and functional programming. It provides methods to manipulate text, arrays, dates, regular expressions, etc.
+[2] JavaScript is a scripting language that allows you to create dynamically updating content, control multimedia, animate images, and pretty much anything else.
+[3] JavaScript can make web pages more dynamic and interactive.
+[4] JavaScript is a web programming language that can be used to update and change CSS and HTML. JavaScript can be used to calculate, control and confirm data.
+[5] Javascript is a lightweight interpreted programming language with first-class functions.
+[6] JavaScript is a lightweight programming language that is widely used by web developers to add dynamic interactions to web pages, applications, servers, and even games. It works seamlessly with HTML and CSS, formatting HTML elements while providing user interaction functions to meet needs that CSS alone cannot achieve. JavaScript's widespread use in web, mobile app, and game development makes it an important language to learn.
+[7] JavaScript is a text-based programming language that can be used on both the client and server sides. It controls multimedia in web pages and makes them interactive. JavaScript gives developers the ability to animate images or automatically update content on a page. JavaScript programming often plays a key role when interacting with forms, browsing maps, or registering for events on a web page.
+
+Query:
+What is JavaScript?
+
+Answer:
+JavaScript (JS) is a multi-paradigm high-level interpreted lightweight programming language based on prototypes and first-class functions [5], supporting object-oriented, imperative and functional programming [1]. As a scripting language, it has functions such as dynamically updating content, controlling multimedia, and producing animated images [2]. It can make web pages more dynamic and interactive [3]. It can be used to update and change CSS and HTML, perform calculations, control and Confirm data[4]. JavaScript is widely used in Web, mobile application and game development, working together with HTML and CSS to provide user interaction functions [6].
+
+References:
+[1] The cause of Alzheimer's disease remains unknown. Alzheimer's disease is currently regarded as a neurodegenerative disease, and nearly 70% of the risk factors are believed to be genetic. Other risk factors include head trauma, depression and high blood pressure.
+[2] The exact cause of Alzheimer's disease is not fully understood. But at a basic level, it's due to brain proteins not functioning properly. This disrupts the working of brain cells (neurons), which triggers a cascade of events. Neurons become damaged, lose their ability to connect to each other, and eventually the neurons die.
+[3] There is accumulation of tau protein and amyloid protein (amyloid) in the brains of Alzheimer's disease patients. The medical community believes that these two proteins may be the cause of the disease.
+[4] Some studies have shown that people with APOE4 variant genes are at a significantly increased risk of developing Alzheimer's disease if they are also infected with herpes simplex virus (HSV1).
+[5] Relevant studies have shown that increased levels of follicle-stimulating hormone (FSH) will increase the risk of Alzheimer's disease.
+[6] Alzheimer's disease is a common form of dementia that begins with mild memory loss and may eventually lead to the inability to hold conversations and respond to the environment. The disease involves areas of the brain that control thinking, memory and language, severely affecting the ability to carry out daily activities.
+[7] Alzheimer's disease is a brain disease that worsens over time and is characterized by changes in the brain that lead to the deposition of specific proteins. The disease causes brain shrinkage and eventual cell death and is the most common cause of dementia. In the United States, approximately 6.5 million people age 65 and older have Alzheimer's disease, and more than 70% of them are age 75 and older. There are approximately 55 million people worldwide with dementia, and an estimated 60% to 70% of them have Alzheimer's disease.
+[8] Alzheimer's disease is a form of dementia that affects memory, thinking, and behavior, with symptoms gradually worsening and interfering with daily tasks. Accounting for 60-80% of dementia cases, it mainly occurs in people aged 65 and above. It is not a normal aging phenomenon and the biggest risk factor is increasing age. Although there is no cure, some treatments such as the aducanutril antibody and lecatizumab have been shown to slow cognitive and functional decline in the early stages. The world is working hard to find better treatments to delay the onset and prevent Alzheimer's disease.
+[9] Scientists are making progress in understanding Alzheimer's disease, but their causes are not yet fully understood. The importance of risk varies among individuals, possibly through interactions with age-related brain changes, genetics, environment and lifestyle factors.
+[10] The cause of Alzheimer's disease is not fully understood and may involve age-related changes in the brain, changes or differences in genes, as well as health, environmental, and lifestyle factors. These factors include brain shrinkage, inflammation, blood vessel damage, energy collapse, etc. Gene-related early-onset and late-onset Alzheimer's disease may be related to familial gene transmission. Health, environmental and lifestyle factors such as exposure to pollutants, heart disease, stroke, high blood pressure, diabetes and obesity may also play a role.
+
+Query:
+What are the causes of Alzheimer's disease?
+
+Answer:
+The cause of Alzheimer's disease is not yet fully understood [1][10], and it may be the result of the interaction of multiple factors [9]. Various influencing factors, including brain age[8][10], genetic factors[1][10], genetic variation[10], increased follicle-stimulating hormone (FSH)[5], head trauma[1], depression [1], hypertension [1], diabetes and obesity [10], pollutant exposure [10], and other factors involving health, environment, and lifestyle [10] may increase the risk of disease. Studies have shown that people with APOE4 mutated genes have a significantly increased risk of developing Alzheimer's disease if they are also infected with the herpes virus (HSV1) [4]. Overall, there are many factors that contribute to Alzheimer’s disease.
+
+References:
+[1] Lanzhou Ramen Soup is made by boiling beef and lamb liver with old soup and water, and then adding traditional seasonings. The finished beef noodle soup must be crystal clear and have the umami flavor of beef.
+[2] The noodles of Lanzhou Ramen are made from fluffy noodles and filtered water. The fluffy noodles contain a large amount of alkali, which makes the noodles flexible and strong.
+[3] Lanzhou Ramen takes only about two minutes from the time the customer orders the noodles to the completion of the noodles, so beef noodles are very popular as a fast breakfast in Lanzhou.
+[4] The price of Lanzhou ramen is generally cheap and affordable, because the target consumer group is people who eat fast food, so the price of ramen is not high, ordinary ones are around 9 yuan a bowl, and those with meat are usually around 16 yuan.
+[5] Lanzhou Ramen shops are widely distributed in all major, medium and small cities in China, and there are also many shops overseas.
+[6] Lanzhou beef noodles are famous for their soft beef, white radish, red spicy oil, green coriander, soft noodles and harmonious soup. There are many types of noodles, such as Da Kuan, Er Kuan, Chive Leaf, Yi Wo Si, etc., to meet the individual tastes of diners. The locals describe it as colorful with clear, white, green, red and yellow, fragrant and mouth-watering.
+
+Query:
+What are the characteristics of Lanzhou Ramen?
+
+Answer:
+The characteristics of Lanzhou Ramen include delicious soup, strong noodles, fast preparation, affordable price, wide distribution and rich taste. The soup is made by boiling beef and mutton liver with old soup and water, and then adding traditional seasonings to ensure that the soup is crystal clear while retaining the umami flavor of the beef [1]. The noodles are made of fluffy gray noodles with high alkali content, which makes the noodles flexible and strong [2]. The preparation process is quick and only takes about two minutes, so it has become a popular fast food breakfast in Lanzhou[3]. The price is generally cheap, usually around 9 yuan per bowl, which is suitable for fast food consumers who pursue affordable prices [4]. In addition, Lanzhou Ramen shops are widely distributed throughout China and overseas [5]. Its unique flavor is reflected in the soft beef, white radish, red spicy oil, green coriander, and various types of noodles, making it a fragrant and rich taste [6].
+
+References:
+[1] Meatballs are a video game genre characterized by game levels, turn-based gameplay, grid-based movement, and permadeath for the player character.
+[2] In the process of repeatedly playing the Meat Pigeon game, players continue to deepen their understanding of the game mechanics. The feedback of this knowledge is one of the fascinating aspects of this game.
+[3] The proprietary term "Roguelike" for meat pigeon games comes from the 1980 game "Rogue", which is a dungeon exploration role-playing game with the characteristics of classic meat pigeon games.
+[4] The Meat Pigeon game is highly random. The levels, items and even stories of each game are random, providing a unique experience for every game.
+[5] The high degree of randomness and complex mechanisms determine that meat pigeon games are often difficult and require players to learn through trial and error.
+[6] The term "Roguelike" comes from the 1980 classic game "Rogue". This turn-based dungeon crawler uses ASCII graphics and procedural generation to create a unique and unpredictable gaming experience, becoming the blueprint for later "Roguelike" games.
+[7] Roguelike games are a type of game modeled after the famous game "Rogue" in the 1980s. They focus on failure and restarting, and make each gameplay unique through randomized design. Usually including features such as limited health, hard punishment, gradually strengthening characters, and randomly generated maps, players need to rely on tactics and skills to gradually achieve success.
+[8] Roguelike games are derived from "Rogue" and usually include permanent death, procedural generation and turn-based systems. In recent years, these features have become more flexible in indie games, with some being classified as "roguelike", "roguelite" or "roguelike-like", retaining the "Rogue" DNA and introducing innovations such as upgrade progression.
+[9] Ultimately, whether a game is a roguelike should be defined by player learning and exploration. Although there are specific definitions such as the Berlin Interpretation, the diversity of games such as Diablo, The Binding of Isaac, and Spelunky has broadened the definition of "roguelike" or "containing roguelike elements."
+
+Query:
+What is a roguelike game?
+
+Answer:
+Meatball games are a video game genre characterized by turn-based gameplay [1][8], grid-based movement [1], procedural generation [8], and permanent death of the player character [1]. Some other core features of this type of game include failure and restarting, limited health, difficulty penalties, gradual character strengthening, and randomly generated maps [7]. The proprietary term "Roguelike" comes from the 1980 game "Rogue", which is a dungeon exploration role-playing game with the characteristics of classic meat pigeon games[3]. This type of game has a strong randomness. The levels, items and even stories of each game are random, making each game provide a unique experience [4]. In recent years, the characteristics of this type of game have become more flexible in game design, and different sub-genres have emerged [8]. Ultimately, what a roguelike is should be defined by player learning and exploration.
+
+References:
+[1] Succulents generally prefer loose, breathable soil. It is recommended to use special succulent soil, or use materials such as vermiculite, perlite or panchen soil to improve drainage.
+[2] Succulents should not be watered too much, and containers should also be drained. Excessive water may cause the roots of succulents to rot.
+[3] Contrary to common belief, succulents, including cacti, benefit from regular watering during the growing season. The key is to wait for the soil to dry before watering, allowing the roots to breathe. Watering frequency varies with the season, pot size and soil conditions and can range from a few days to two or three weeks. Succulents can often survive months without watering.
+[4] The suitable temperature for most succulents to grow is between 15 and 28 degrees Celsius. Frostbite, even withering and death are likely to occur when the temperature is below 5 degrees Celsius.
+[5] Beginner succulent growers should not overexpose their plants to sunlight. Thousands of succulent species have different light preferences, with most preferring at least two to three hours of sunlight per day or filtered sunlight. When growing indoors, they should be placed next to a window or in a greenhouse with plenty of sunlight. If there are no sunny windows, grow lights can be used for the winter. When the plants enjoy outdoor conditions again, gradually move them outdoors to avoid sunburn.
+[6] Succulents generally do not require additional fertilization. If fertilization is necessary, low-concentration, balanced fertilizer can be used during the growth period.
+[7] Succulents should be checked regularly for pests and diseases and intervened in a timely manner.
+[8] Do not backfill when planting succulents. When planting succulents in your garden, dig a hole the size of the root ball, place the succulent in it, and move away from the plant. Never backfill or bury soil around the roots, leaving gaps will help the soil backfill slowly, in sync with plant growth. This encourages the growth of new roots close to the soil surface, allowing them to breathe.
+
+Query:
+What precautions should be taken when growing succulents?
+
+Answer:
+When planting succulents, you need to pay attention to soil selection[1], avoid excessive watering and ensure smooth drainage of the container[2][3]. The suitable growth temperature is 15~28 degrees Celsius to prevent frostbite [4]. Fully understand the sunlight needs of different succulents and avoid overexposure [5]. It is not advisable to over-fertilize and use low-concentration balanced fertilizers [6]. Regularly check for pests and diseases and carry out timely intervention [7]. When planting succulents, do not backfill the soil and leave gaps to promote new root growth [8].
+
+References:
+[references]
+
+Query:
+[query]
+
+Answer:
