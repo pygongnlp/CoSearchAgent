@@ -6,9 +6,7 @@ To better support the research in collaborative search, we propose **CoSearchAge
 ![sda](image/cosearchagent.png)
 
 ## Demo Video
-<video width="610" height="400" controls>
-  <source src="./demo.mp4" type="video/mp4">
-</video>
+![](image/demo.gif)
 
 ## How to deploy
 1. Register a Slack account, log in, and create a Workspace.
