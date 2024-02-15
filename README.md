@@ -33,3 +33,12 @@ CoSearchAgent not only accurately rewrites the user query for search but also of
 
 Please contact us at pygongnlp@gmail.com if you have any questions!
 
+## Citation
+```
+@article{gong2024cosearchagent,
+  title={CoSearchAgent: A Lightweight Collaborative Search Agent with Large Language Models},
+  author={Gong, Peiyuan and Li, Jiamian and Mao, Jiaxin},
+  journal={arXiv preprint arXiv:2402.06360},
+  year={2024}
+}
+```
